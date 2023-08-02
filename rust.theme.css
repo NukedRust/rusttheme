@@ -1,15 +1,5 @@
-/**
- * @name Rust-Theme
- * @author ClearVision Team
- * @version 6.3.0
- * @description Highly customizable and beautiful theme for BetterDiscord.
- * @source https://github.com/ClearVision/ClearVision-v6
- * @website https://clearvision.github.io
- * @invite 7pNUC9C
- * @BDEditor Clear Vision
-*/
-
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
 
 :root {
@@ -19,14 +9,14 @@
   --danger-color: #982929;
   --url-color: var(--main-color);
   --background-image: url('https://images7.alphacoders.com/980/980709.png');
-  --background-shading: 50%;
+  --background-shading: 49%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
-  --background-brightness: 181%;
-  --background-contrast: 133%;
-  --background-saturation: 285%;
+  --background-brightness: 204%;
+  --background-contrast: 100%;
+  --background-saturation: 300%;
   --background-grayscale: 0%;
   --background-invert: 0%;
   --background-blur: 0px;
@@ -53,7 +43,7 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 3px;
-  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
+  --home-icon: url('https://i.ibb.co/vq7y1mf/74b4112f6a66f089e93096a1cec4e0b4bef622ae-full-Photo-Room-png-Photo-Room.png');
   --home-position: center;
   --home-size: 40px;
   --channel-unread: var(--main-color);
@@ -84,6 +74,19 @@
   --bd-blue: var(--main-color);
   --bd-blue-hover: var(--hover-color);
   --bd-blue-active: var(--hover-color);
+  --rs-small-spacing: 1px;
+  --rs-medium-spacing: 4px;
+  --rs-large-spacing: 0px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 5px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
   --columns: 2;
   --guildgap: 12;
   --aligndms: 0;
